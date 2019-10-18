@@ -24,6 +24,10 @@ Explanation of flags
 - -movflags frag_keyframe+empty_moov --- seems doesn’t make a difference
 - -preset ultrafast -tune zerolatency --- makes a bit faster
 
+Streaming rawvideo
+- ffmpeg -f avfoundation -framerate 30 -video_size 1280x720 -i "0" -c:v rawvideo -vf scale=320:-1 -f rawvideo -pixel_format bgr24 -listen 1 rtmp://0.0.0.0:1935
+- cannot figure out how to display this on screen
+
 Resources
 - server side https://gist.github.com/nico-lab/e1ba48c33bf2c7e1d9ffdd9c1b8d0493
 - https://gist.github.com/Brainiarc7/4636a162ef7dc2e8c9c4c1d4ae887c0e 
