@@ -1,3 +1,4 @@
+Easy way:
 Using code from https://github.com/jeffbass/imagezmq (MIT license)
 
 Alternative:
