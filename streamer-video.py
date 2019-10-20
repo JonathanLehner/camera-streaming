@@ -4,7 +4,7 @@ import time
 from imutils.video import FileVideoStream
 import imagezmq
  
-sender = imagezmq.ImageSender(connect_to='tcp://10.1.1.60:5555')
+sender = imagezmq.ImageSender(connect_to='tcp://10.1.1.224:5555')
  
 rpi_name = socket.gethostname() # send RPi hostname with each image
 picam = FileVideoStream("/Users/Jonathanlehner/Asianriding.mp4").start()

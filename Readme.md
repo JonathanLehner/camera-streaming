@@ -1,6 +1,7 @@
 Easy way:
 - Using code from https://github.com/jeffbass/imagezmq (MIT license)
 - use hostname -I to get your own ip address
+- gives crazy latency with small images ~224x224, but lags a few seconds with full HD
 
 Alternative 1:
 - ffmpeg  
