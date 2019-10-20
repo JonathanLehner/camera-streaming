@@ -1,8 +1,8 @@
 Easy way:
 - Using code from https://github.com/jeffbass/imagezmq (MIT license)
+- use hostname -I to get your own ip address
 
 Alternative 1:
-Use
 - ffmpeg  
 - https://github.com/illuspas/Node-Media-Server or: (untested since C++ https://github.com/xiongziliang/ZLMediaKit) 
 - https://github.com/Fonbet/argus-tensor-stream
