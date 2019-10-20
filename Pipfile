@@ -6,6 +6,9 @@ name = "pypi"
 [dev-packages]
 
 [packages]
+opencv-python = "*"
+zmq = "*"
+imutils = "*"
 
 [requires]
 python_version = "3.6"
