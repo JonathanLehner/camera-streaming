@@ -3,7 +3,9 @@ Easy way:
 - use hostname -I to get your own ip address (Windows)
 - Head to the Apple menu > System Preferences > Network and then select the connection you are currently using (Mac)
 - gives crazy latency with small images ~224x224, but lags a few seconds with full HD
-
+- on raspberry pi might need
+  sudo apt-get install libatlas-base-dev to install numpy
+  
 Alternative 1:
 - ffmpeg  
 - https://github.com/illuspas/Node-Media-Server or: (untested since C++ https://github.com/xiongziliang/ZLMediaKit) 
