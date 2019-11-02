@@ -4,7 +4,7 @@ Easy way:
 - Head to the Apple menu > System Preferences > Network and then select the connection you are currently using (Mac)
 - gives crazy latency with small images ~224x224, but lags a few seconds with full HD
 - on raspberry pi might need
-  sudo apt-get install libatlas-base-dev to install numpy
+  sudo apt-get install libatlas-base-dev to install numpy (and some other packages for opencv, and then change ispicamera to True and install picamera package) 
   
 Alternative 1:
 - ffmpeg  
