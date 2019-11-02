@@ -1,6 +1,7 @@
 Easy way:
 - Using code from https://github.com/jeffbass/imagezmq (MIT license)
-- use hostname -I to get your own ip address
+- use hostname -I to get your own ip address (Windows)
+- Head to the Apple menu > System Preferences > Network and then select the connection you are currently using (Mac)
 - gives crazy latency with small images ~224x224, but lags a few seconds with full HD
 
 Alternative 1:
